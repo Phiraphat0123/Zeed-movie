@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    box-sizing: border-box;
-}
+
 .menuBar{
     display: flex;
     flex-direction: row;
@@ -11,6 +8,9 @@
     padding: 30px 30px;
     min-height: 90px;
     background-color: #FCBF49;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .link-container{
@@ -28,6 +28,7 @@
     padding: 0px 26px;
     color: #003049;
     font-weight: 500;
+    font-size:  24px;
     
 }
 .link-container h4:nth-child(2){
